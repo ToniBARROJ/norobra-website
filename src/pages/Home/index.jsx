@@ -6,8 +6,11 @@ export const Home = () => {
     return (
         <>
             <section id="home" className={styles.home}>
-                <p>Construimos futuro sobre bases sólidas.</p>
-                <BudgetButton />
+                <div className={styles.heroImage}>
+                    <h1>Construimos futuro sobre bases sólidas.</h1>
+                    <BudgetButton />
+                </div>
+                
             </section>
         </>
     )

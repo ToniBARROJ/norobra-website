@@ -1,8 +1,38 @@
 .home {
+    position: relative;
+    height: 100vh;
+    background-image: url('/public/assets/images/hero-image-2.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 2rem;
+}
+
+.home::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* Oscurece imagen para mejor contraste */
+  z-index: 1;    
+}
+
+.heroImage {
+  position: relative;
+  z-index: 1;
+  max-width: 550px;
+
+   h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+   }
+
 
 }
+
+

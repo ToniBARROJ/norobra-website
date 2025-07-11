@@ -1,4 +1,15 @@
 .budgetButton {
-    background-color: #e1dfd9;
-    border: none;
+  padding: 0.75rem 1.5rem;
+  background-color: #e1dfd9;
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.budgetButton:hover {
+    background-color: #f1eee6;
+    font-weight: bolder;
 }
