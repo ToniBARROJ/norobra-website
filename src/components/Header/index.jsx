@@ -1,13 +1,13 @@
 import React from "react"
-import styles from "./header.module.css"
+import "./header.css"
 
 
 export const Header = () => {
     return (
         <>
-            <header className="site-header">
-                <div className={styles.header}>
-                    <img src="/assets/images/logo-norobra.png" alt="Logo NOROBRA" className={styles.logo} />
+            <header className="siteHeader">
+                <div className="header">
+                    <img src="/assets/images/logo-norobra.png" alt="Logo NOROBRA" className="logo" />
                 </div>
             </header>
         </>

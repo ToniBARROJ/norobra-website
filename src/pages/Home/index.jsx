@@ -1,17 +1,25 @@
 import React from "react";
 import { BudgetButton } from "../../components/buttons/budgetButton";
-import styles from "./Home.module.css"
+import { AnimatedSection } from "../../components/animations/animatedSection";
+import "./Home.css"
 
 export const Home = () => {
     return (
         <>
-            <section id="home" className={styles.home}>
-                <div className={styles.heroImage}>
-                    <h1>Construimos futuro sobre bases sólidas.</h1>
-                    <BudgetButton />
-                </div>
-                
-            </section>
+            <AnimatedSection animation="slide-left">
+                <section id="home" className="home">
+                    <div className="heroImage">
+                        <h1>Construimos futuro sobre bases sólidas.</h1>
+                        <BudgetButton />
+                    </div>
+                </section>
+            </AnimatedSection>
+            <AnimatedSection animation="slide-left">
+                <section id="milestones" className="milestones">
+                    <div>
+                    </div>
+                </section>
+            </AnimatedSection>
         </>
     )
 }
