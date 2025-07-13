@@ -9,11 +9,26 @@
     background-color: #f9f7f0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
     width: 300px;
     height: 225px;
-    
+    margin-left: 40px;
 }
 
+.navbar {
+    margin-right: 60px;
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+
+        li:hover {
+            color: aqua;
+            transition: 0.3s ease-out;
+        }
+    }
+}

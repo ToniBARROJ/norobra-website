@@ -1,7 +1,7 @@
 .home {
     position: relative;
     height: calc(100vh - 90px);
-    background-image: url('/src/images/hero-image-2.avif');
+    background-image: url('/public/assets/images/hero-image-2.avif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@
 
 .milestones {
   background-image: url('/public/assets/images/milestones.avif'); /* Encontrar porque no sale la imagen */
-  animation: fadeInUp 1s ease forwards;
+  animation: fadeInUp 1s ease-out forwards;
   animation-delay: 0.5s;
   height: 100vh;
   background-repeat: no-repeat;
