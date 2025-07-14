@@ -1,6 +1,6 @@
 .siteHeader {
     position: sticky;
-    z-index: 1000;
+    z-index: 1;
     top: 0;
 }
 
@@ -10,25 +10,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: visible;
+
+    .logo {
+        z-index: 2;
+        width: auto;
+        height: 300px;
+        margin-left: 40px;
+    }
 }
 
-.logo {
-    width: 300px;
-    height: 225px;
-    margin-left: 40px;
-}
-
-.navbar {
-    margin-right: 60px;
-
-    ul {
-        list-style: none;
-        display: flex;
-        gap: 30px;
-
-        li:hover {
-            color: aqua;
-            transition: 0.3s ease-out;
-        }
+@media (min-width: 785px) {
+    .logo {
+        height: 150px;
     }
 }

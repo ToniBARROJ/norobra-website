@@ -1,0 +1,20 @@
+.navbar {
+    margin-right: 60px;
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+
+        li:hover {
+            color: aqua;
+            transition: 0.3s ease-out;
+        }
+    }
+}
+
+@media (max-width: 785px) {
+    .navbar {
+        display: none;
+    }
+}

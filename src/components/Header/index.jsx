@@ -1,5 +1,8 @@
 import React from "react"
 import "./header.css"
+import logo from '../../assets/logos/logo-norobra.png'
+import { Navbar } from "../Navbar"
+import { Hamburger } from "../buttons/toggleButton"
 
 
 export const Header = () => {
@@ -7,17 +10,10 @@ export const Header = () => {
         <>
             <header className="siteHeader">
                 <div className="header">
-                    <img src="/assets/images/logo-norobra.png" alt="Logo NOROBRA" className="logo" />
+                    <img src={logo} alt="Logo NOROBRA" className="logo" />
                     
-                    <div className="navbar">
-                        <ul>
-                            <li>Inicio</li>
-                            <li>Quienes somos</li>
-                            <li>Servicios</li>
-                            <li>Nuestras obras</li>
-                            <li>Contacto</li>
-                        </ul>
-                    </div>
+                    <Navbar />
+                    <Hamburger />
                 </div>
                 
             </header>
