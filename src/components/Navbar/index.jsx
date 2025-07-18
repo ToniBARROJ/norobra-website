@@ -1,18 +1,22 @@
 import React from "react";
+import { useState } from "react";
 import "./Navbar.css";
 
 export const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false)
+
     return (
         <>
-            <div className="navbar">
-                <ul>
+            <nav className="navbar">
+                <ul className={`navlinks ${isOpen ? "open" : ""}`}>
                     <li>Inicio</li>
                     <li>Quienes somos</li>
                     <li>Servicios</li>
                     <li>Nuestras obras</li>
                     <li>Contacto</li>
                 </ul>
-            </div>
+                <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>☰</button>
+            </nav>
         </>
     )
 }
