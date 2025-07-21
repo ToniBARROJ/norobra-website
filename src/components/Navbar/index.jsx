@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 export const Navbar = () => {
@@ -9,11 +10,11 @@ export const Navbar = () => {
         <>
             <nav className="navbar">
                 <ul className={`navlinks ${isOpen ? "open" : ""}`}>
-                    <li>Inicio</li>
-                    <li>Quienes somos</li>
-                    <li>Servicios</li>
-                    <li>Nuestras obras</li>
-                    <li>Contacto</li>
+                    <li><Link to="/">Inicio</Link></li>
+                    <li><Link to="/about">Quienes somos</Link></li>
+                    <li><Link to="/services">Servicios</Link></li>
+                    <li><Link to="/ourBuilds">Nuestras obras</Link></li>
+                    <li><Link to="/contact">Contacto</Link></li>
                 </ul>
                 <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>☰</button>
             </nav>

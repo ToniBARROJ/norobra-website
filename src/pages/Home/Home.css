@@ -18,7 +18,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5); /* Oscurece imagen para mejor contraste */
+  background: rgba(0, 0, 0, 0.4); /* Oscurece imagen para mejor contraste */
   z-index: 0;
 }
 
@@ -44,6 +44,36 @@
   height: 100vh;
   animation: fadeInUp 1s ease-out forwards;
   animation-delay: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  width: 100%;
+}
+
+.milestone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
 }
 
 /* Animación */

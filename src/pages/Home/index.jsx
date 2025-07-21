@@ -18,7 +18,19 @@ export const Home = () => {
             </AnimatedSection>
             <AnimatedSection animation="slide-left">
                 <section id="milestones" className="milestones">
-                    <div>
+                    <div className="cards">
+                        <div className="milestone">
+                            <h2>Compromiso</h2>
+                            <p>100%</p>
+                        </div>
+                        <div className="milestone">
+                            <h2>Experiencia</h2>
+                            <p>15 años</p>
+                        </div>
+                        <div className="milestone">
+                            <h2>Cliente Satisfechos</h2>
+                            <p>Más de 300</p>
+                        </div>
                     </div>
                 </section>
             </AnimatedSection>
