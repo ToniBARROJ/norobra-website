@@ -11,7 +11,7 @@ export const About = () => {
             <div className="about">
                 <AnimatedSection animation="slide-left">
                     <div className="image">
-                        <img src={image} alt="happy worker" width="500px"/>
+                        <img src={image} alt="happy worker"/>
                     </div>
                 </AnimatedSection>
 
@@ -23,7 +23,10 @@ export const About = () => {
                     </div>
                 </AnimatedSection>
             </div>
+
+            
             
         </>
+        
     )
 }

@@ -1,0 +1,39 @@
+body {
+    background-color: #f9f7f0;
+}
+
+.about {
+    height: calc(100vh - 90px);
+    display: flex;
+    align-items: center;
+    margin: 0 5% 0 5%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    img {
+        width: 500px;
+    }
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    margin: 0 10% 0 10%;
+}
+
+@media (max-width: 1024px) {
+    .about {
+        display: block;
+    }
+
+    .image img {
+        width: 80%;
+    }
+}

@@ -10,11 +10,11 @@ export const Navbar = () => {
         <>
             <nav className="navbar">
                 <ul className={`navlinks ${isOpen ? "open" : ""}`}>
-                    <li><Link to="/">Inicio</Link></li>
-                    <li><Link to="/about">Quienes somos</Link></li>
-                    <li><Link to="/services">Servicios</Link></li>
-                    <li><Link to="/ourBuilds">Nuestras obras</Link></li>
-                    <li><Link to="/contact">Contacto</Link></li>
+                    <li><Link to="/" className="links">Inicio</Link></li>
+                    <li><Link to="/about" className="links">Quienes somos</Link></li>
+                    <li><Link to="/services" className="links">Servicios</Link></li>
+                    <li><Link to="/ourBuilds" className="links">Nuestras obras</Link></li>
+                    <li><Link to="/contact" className="links">Contacto</Link></li>
                 </ul>
                 <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>☰</button>
             </nav>
