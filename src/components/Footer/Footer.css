@@ -1,0 +1,41 @@
+.footer {
+    height: calc(100vh - 90px);
+}
+
+.footerLinks {
+    display: flex;
+    height: 85%;
+
+
+}
+
+.logoDescription {
+    width: 40%;
+}
+
+.footerMenu {
+    width: 20%;
+}
+
+.interestLinks {
+    width: 20%;
+}
+
+.contactUs {
+    width: 20%;
+}
+
+.footerLogo {
+    width: auto;
+    height: 150px;
+}
+
+.phonePath {
+    width: 14px;
+}
+
+.footerRights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
