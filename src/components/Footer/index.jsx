@@ -34,7 +34,7 @@ export const Footer = () => {
                     </div>
                     <div className="interestLinks">
                         <h3>Links de Interés</h3>
-                        <ul>
+                        <ul> {/* Aquí tengo que poner Link nativos de React hacia páginas dedicadas a los temas de la lista */}
                             <li>Aviso legal</li>
                             <li>P. de Privacidad</li>
                             <li>P. de Cookies</li>
@@ -54,7 +54,7 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div className="footerRights">
-                    <p>Hola aqui estan los derechos de copyright</p>
+                    <p>© 2025 Construcciones Norobra. Todos los Derechos Reservados.</p>
                 </div>
             </div>
             

@@ -3,6 +3,7 @@ import './About.css'
 import { Header } from "../../components/Header";
 import { AnimatedSection } from "../../components/animations/animatedSection";
 import image from '../../assets/images/happy-worker.jpg'
+import { Footer } from "../../components/Footer";
 
 export const About = () => {
     return (
@@ -23,7 +24,7 @@ export const About = () => {
                     </div>
                 </AnimatedSection>
             </div>
-
+            <Footer />
             
             
         </>

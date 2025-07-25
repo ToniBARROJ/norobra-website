@@ -107,4 +107,12 @@
   .home {
     padding: 0 5rem;
   }
+
+}
+
+@media (max-width: 600px) {
+  .milestone {
+    width: 95%;
+    height: 150px;
+  }
 }
