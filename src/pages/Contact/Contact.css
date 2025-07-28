@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contacto {
+  display: flex;
+  min-height: calc(100vh - 90px);
+  flex-direction: row;
+}
+
+.contacto-imagen img {
+  height: calc(100vh - 90px);
+}
+
+.contacto-contenido {
+  flex: 1;
+  padding: 60px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-empresa h2 {
+  font-size: 3rem;
+  color: #1a237e;
+  margin-bottom: 20px;
+}
+
+.info-empresa p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.info-empresa .datos {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.info-empresa .datos li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .contacto {
+    flex-direction: column;
+  }
+
+  .contacto-imagen {
+    display: none;
+  }
+
+  .contacto-contenido {
+    padding: 20px;
+  }
+}

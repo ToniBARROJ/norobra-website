@@ -6,7 +6,7 @@ body {
     height: calc(100vh - 90px);
     display: flex;
     align-items: center;
-    margin: 0 5% 0 5%;
+    margin: 0 5% 10px 5%;
 }
 
 .image {
@@ -21,19 +21,83 @@ body {
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    text-align: left;
-    margin: 0 10% 0 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0 10% 0 10%;
+  gap: 20px;
+}
+
+.about-us {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  
+}
+
+.about-title {
+  font-size: 2.5rem;
+  color: #002e5d;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.about-section {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  color: #003f75;
+  margin-bottom: 15px;
+}
+
+.about-list {
+  padding-left: 20px;
+  list-style: none;
+  line-height: 1.8;
+  color: #444;
+}
+
+.about-list li::before {
+  content: '✓';
+  color: #ffb400; 
+  font-weight: bold;
+  display: inline-block;
+  width: 1.5em;
+  margin-left: -1.5em;
+}
+
+.about-quote {
+  border-left: 4px solid #ffb400;
+  padding-left: 20px;
+  font-style: italic;
+  color: #555;
+  margin-top: 60px;
+}
+
+.quote-author {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 10px;
 }
 
 @media (max-width: 1024px) {
     .about {
         display: block;
+        height: 100%;
     }
 
     .image img {
-        width: 80%;
+        width: 60%;
+        margin-bottom: 50px;
     }
 }

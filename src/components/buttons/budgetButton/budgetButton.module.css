@@ -4,12 +4,12 @@
   border: none;
   font-weight: 700;
   font-size: 1rem;
-  border-radius: 5px;
+  border-radius: 20px;
   cursor: pointer;
   transition: 0.3s ease;
 }
 
 .budgetButton:hover {
-    background-color: #f1eee6;
+    background-color: rgb(229, 194, 0);
     font-weight: bolder;
 }

@@ -37,10 +37,19 @@
         margin: 0 8% 10px 10px; 
         padding: 1rem 2rem;
         box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+        transition: scale .3s ease,
+        display .3s ease allow-discrete;
+        scale: 0;
     }
 
     .navlinks.open {
         display: flex;
+        scale: 1;
+        transition: scale 0.3s ease-in-out;
+
+        @starting-style {
+            scale: 0;
+        }
     }
 
     .hamburger {

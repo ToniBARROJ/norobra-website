@@ -2,6 +2,7 @@ import React from "react";
 import logo from '../../assets/logos/logo-norobra.png'
 import { Link } from "react-router-dom";
 import "./Footer.css"
+import { Socials } from "../Socials";
 
 export const Footer = () => {
     return (
@@ -52,6 +53,9 @@ export const Footer = () => {
                             <span>+34 686 10 26 17</span>
                         </a>
                     </div>
+                </div>
+                <div className="socials">
+                    <Socials />
                 </div>
                 <div className="footerRights">
                     <p>© 2025 Construcciones Norobra. Todos los Derechos Reservados.</p>

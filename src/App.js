@@ -5,12 +5,14 @@ import { Services } from './pages/Services';
 import { OurBuilds } from './pages/OurBuilds';
 import { Contact } from './pages/Contact'
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import { ScrollToTop } from './components/ScrollToTop';
 
 
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <main>
         <Routes>
           <Route index element={<Home />} />
