@@ -5,6 +5,7 @@ import { Pagination } from 'swiper/modules';
 import 'swiper/css/pagination';
 import 'swiper/css';
 import './Builds.css'
+import image1 from '../../../assets/images/BuildImages/build-1.jpg'
 import image2 from '../../../assets/images/BuildImages/build-2.jpg'
 import image3 from '../../../assets/images/BuildImages/build-3.jpg'
 import image4 from '../../../assets/images/BuildImages/build-4.jpg'
@@ -22,6 +23,12 @@ const slidesData = [
 		title: "Reforma integral en entorno urbano",
 		description: "Transformación completa de una vivienda urbana manteniendo la estructura original pero modernizando todos los espacios.",
 		tags: ["Reforma", "Diseño", "Ciudad"]
+	},
+	{ 
+		imgSrc: `${image1}`, 
+		title: "Residencia Vanguardista en Hormigón y Cristal",
+  		description: "Una vivienda de diseño contemporáneo que combina hormigón expuesto, grandes ventanales y vegetación integrada para un estilo moderno y natural.",
+  		tags: ["Moderna", "Hormigón", "Minimalismo"]
 	},
 	{ 
 		imgSrc: `${image4}`, 

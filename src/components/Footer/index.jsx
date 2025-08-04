@@ -16,30 +16,20 @@ export const Footer = () => {
                     <div className="footerMenu">
                         <h3>Menú</h3>
                         <ul>
-                            <li>
-                                <Link to="/" className="links">Inicio</Link>
-                            </li>
-                            <li>
-                                <Link to="/about" className="links">Quienes somos</Link>
-                            </li>
-                            <li>
-                                <Link to="/services" className="links">Servicios</Link>
-                            </li>
-                            <li>
-                                <Link to="/ourBuilds" className="links">Nuestras obras</Link>
-                            </li>
-                            <li>
-                                <Link to="/contact" className="links">Contacto</Link>
-                            </li>
+                            <li><Link to="/" className="links">Inicio</Link></li>
+                            <li><Link to="/about" className="links">Quienes somos</Link></li>
+                            <li><Link to="/services" className="links">Servicios</Link></li>
+                            <li><Link to="/ourBuilds" className="links">Nuestras obras</Link></li>
+                            <li><Link to="/contact" className="links">Contacto</Link></li>
                         </ul>
                     </div>
                     <div className="interestLinks">
                         <h3>Links de Interés</h3>
                         <ul> {/* Aquí tengo que poner Link nativos de React hacia páginas dedicadas a los temas de la lista */}
-                            <li>Aviso legal</li>
-                            <li>P. de Privacidad</li>
-                            <li>P. de Cookies</li>
-                            <li>Preferencias de Cookies</li>
+                            <li><Link to="/legalAdvise" className="links">Aviso legal</Link></li>
+                            <li><Link to="/privacyPolicies" className="links">P. de Privacidad</Link></li>
+                            <li><Link to="/cookiePolicies" className="links">P. de Cookies</Link></li>
+                            <li><Link to="/cookiePreferences" className="links">Preferencias de Cookies</Link></li>
                         </ul>
                     </div>
                     <div className="contactUs">
@@ -51,6 +41,9 @@ export const Footer = () => {
                                 </svg>
                             </span>
                             <span>+34 686 10 26 17</span>
+                        </a>
+                        <a>
+                            
                         </a>
                     </div>
                 </div>

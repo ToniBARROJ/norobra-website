@@ -5,14 +5,6 @@
     --secondAccent-clr: #002e5d;
 }
 
-/* .section-container, 
-.section-container::before, 
-.section-container::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
-
 img {
     display: block;
     width: 100%;

@@ -1,0 +1,48 @@
+:root {
+    --gap: 25px;
+    --primary-clr: #fff;
+    --accent-clr: gold;
+    --secondAccent-clr: #002e5d;
+    --h1Titles-fs: 50px;
+    --h2Titles-fs: 48px;
+    --p-fontSize: 20px;
+}
+
+.legalAdvise-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    padding: 0 50px 0;
+}
+
+.legalAdvise-title {
+    border-left: 3px solid var(--accent-clr);
+    padding-left: 45px;
+}
+
+.legalAdvise-title h1 {
+    color: var(--secondAccent-clr);
+    font-size: var(--h1Titles-fs);
+}
+
+.legalAdvise-textbox {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+}
+
+.legalAdvise-textbox ul {
+    list-style: none;
+    line-height: 1.5;
+}
+
+.legalAdvise-textbox h2 {
+    color: var(--secondAccent-clr);
+    font-size: var(--h2Titles-fs);
+    padding-bottom: 20px;
+}
+
+.legalAdvise-textbox p {
+    line-height: 1.5;
+    font-size: var(--p-fontSize);
+}
