@@ -10,10 +10,7 @@ import { CookiePreferences } from './pages/Policies/Cookie prefrences';
 import { CookiePolicies } from './pages/Policies/Cookie policies';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import { ScrollToTop } from './components/ScrollToTop';
-
-
-
-
+import { CookieBanner } from './components/CookieBanner';
 
 function App() {
   return (
@@ -33,6 +30,7 @@ function App() {
           <Route path='/cookiePreferences' element={<CookiePreferences />} />
         </Routes> 
       </main>
+      <CookieBanner />
     </Router>
   );
 }

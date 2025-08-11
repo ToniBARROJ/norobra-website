@@ -8,7 +8,7 @@ export const CookiePolicies = () => {
     return (
         <>
             <Header />
-            
+            hola paco, politica de cookies
             <Footer />
         </>
     )
