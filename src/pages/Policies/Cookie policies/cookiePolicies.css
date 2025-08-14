@@ -1,0 +1,26 @@
+:root {
+    --gap: 25px;
+    --primary-clr: #fff;
+    --accent-clr: gold;
+    --secondAccent-clr: #002e5d;
+    --h1Titles-fs: 50px;
+    --h2Titles-fs: 40px;
+    --p-fontSize: 20px;
+}
+
+.container {
+    line-height: 1.5;
+    font-size: var(--p-fontSize);
+
+    h1 {
+        font-size: var(--h1Titles-fs);
+        color: var(--secondAccent-clr);
+    }
+
+    h2 {
+        font-size: var(--h2Titles-fs);
+        color: var(--secondAccent-clr);
+    }
+
+
+}

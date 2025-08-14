@@ -15,13 +15,13 @@ export const PrivacyPolicies = () => {
         <>
             <Header />
             <div className="container">
-                <main className="page" role="main" aria-labelledby="policy-title">
+                <main className="page" role="main">
                     <header>
                         <h1 id="policy-title">Política de Privacidad</h1>
                         <div className="meta">Última actualización: <strong>11/08/2025</strong></div>
                     </header>
 
-                    <nav className="toc" aria-label="Índice de la Política de Privacidad">
+                    <nav className="index">
                         <ul>
                             <li><a href="#responsable">Responsable</a></li>
                             <li><a href="#datos">Datos que recogemos</a></li>
@@ -45,7 +45,7 @@ export const PrivacyPolicies = () => {
                         </p>
                     </section>
 
-                    <section id="responsable" aria-labelledby="h-responsable">
+                    <section id="responsable">
                         <h2 id="h-responsable">1. Responsable del tratamiento</h2>
                         <p>
                             <strong>Nombre / Razón social:</strong> NOROBRA <br />
@@ -56,7 +56,7 @@ export const PrivacyPolicies = () => {
                         </p>
                     </section>
 
-                    <section id="datos" aria-labelledby="h-datos">
+                    <section id="datos">
                         <h2 id="h-datos">2. Datos que recopilamos</h2>
                         <p>Podemos recoger y tratar las siguientes categorías de datos personales:</p>
                         <ul>
@@ -67,7 +67,7 @@ export const PrivacyPolicies = () => {
                         </ul>
                     </section>
 
-                    <section id="finalidad" aria-labelledby="h-finalidad">
+                    <section id="finalidad">
                         <h2 id="h-finalidad">3. Finalidad del tratamiento y base legal</h2>
                         <p>Tratamos sus datos para las siguientes finalidades:</p>
                         <ul>
@@ -78,7 +78,7 @@ export const PrivacyPolicies = () => {
                         </ul>
                     </section>
 
-                    <section id="conservacion" aria-labelledby="h-conservacion">
+                    <section id="conservacion">
                         <h2 id="h-conservacion">4. Plazo de conservación</h2>
                         <p>
                             Conservarémos sus datos solamente durante el tiempo necesario para cumplir con la finalidad para la que se recabaron y para atender posibles responsabilidades legales. Cuando el tratamiento se base en el consentimiento, conservaremos los datos hasta que el interesado lo revoque.
@@ -88,7 +88,7 @@ export const PrivacyPolicies = () => {
                         </p>
                     </section>
 
-                    <section id="destinatarios" aria-labelledby="h-destinatarios">
+                    <section id="destinatarios">
                         <h2 id="h-destinatarios">5. Destinatarios y transferencias</h2>
                         <p>
                             Sus datos podrán ser comunicados a:
@@ -103,7 +103,7 @@ export const PrivacyPolicies = () => {
                         </p>
                     </section>
 
-                    <section id="derechos" aria-labelledby="h-derechos">
+                    <section id="derechos">
                         <h2 id="h-derechos">6. Derechos del interesado</h2>
                         <p>
                             Usted puede, en cualquier momento, ejercer los derechos reconocidos por la normativa de protección de datos:
@@ -122,41 +122,41 @@ export const PrivacyPolicies = () => {
                         <p>También tiene derecho a presentar una reclamación ante la Agencia Española de Protección de Datos: <a href="https://www.aepd.es/" target="_blank" rel="noopener">www.aepd.es</a>.</p>
                     </section>
 
-                    <section id="seguridad" aria-labelledby="h-seguridad">
+                    <section id="seguridad">
                         <h2 id="h-seguridad">7. Medidas de seguridad</h2>
                         <p>
                             Adoptamos medidas técnicas y organizativas para garantizar la seguridad de los datos y evitar su alteración, pérdida, tratamiento o acceso no autorizado. Entre otras, utilizamos cifrado TLS en las comunicaciones, control de accesos y copias de seguridad periódicas.
                         </p>
                     </section>
 
-                    <section id="cookies" aria-labelledby="h-cookies">
+                    <section id="cookies">
                         <h2 id="h-cookies">8. Cookies y tecnología similar</h2>
                         <p>
                             Nuestra web utiliza cookies y otras tecnologías similares para mejorar la experiencia, realizar análisis y ofrecer contenidos personalizados. Para más información sobre las cookies que empleamos, finalidades y cómo gestionarlas, consulte nuestra<Link to="/cookiePolicies">Política de Cookies</Link>.
                         </p>
                     </section>
 
-                    <section id="cambios" aria-labelledby="h-cambios">
+                    <section id="cambios">
                         <h2 id="h-cambios">9. Cambios en la política</h2>
                         <p>
                             Esta Política de Privacidad puede ser actualizada. La versión vigente estará siempre disponible en esta página con la fecha de última modificación. Cuando los cambios sean relevantes, se le notificará con antelación cuando proceda.
                         </p>
                     </section>
 
-                    <section id="contacto" aria-labelledby="h-contacto">
+                    <section id="contacto">
                         <h2 id="h-contacto">10. Contacto</h2>
                         <p>
                             Si tiene preguntas sobre esta Política de Privacidad o desea ejercer sus derechos, póngase en contacto con nosotros:
                         </p>
-                        <div className="contact-card" role="region" aria-label="Contacto de privacidad">
+                        <div className="contact-card" role="region">
                             <p><strong>Responsable:</strong> NOROBRA</p>
                             <p><strong>Email:</strong> <a href="mailto:[email@example.com]">[email@example.com]</a></p>
                             <p><strong>Dirección:</strong> [Dirección completa]</p>
                             <p><strong>Teléfono:</strong> [Teléfono]</p>
 
-                            <div className="actions" aria-hidden="false">
-                                <button className="btn" onClick={print}>Imprimir</button>
+                            <div className="actions">
                                 <a href="/politica-de-cookies" className="btn secondary">Política de Cookies</a>
+                                <button className="print-btn" onClick={print}>Imprimir</button>
                             </div>
                         </div>
                     </section>

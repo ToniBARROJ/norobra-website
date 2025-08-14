@@ -72,7 +72,7 @@ export const Builds = () => {
 		<>
 			<section className="slider-container">
 				
-				<div className="container">
+				<div className="slider">
 					<Swiper	
 					modules={[Pagination]}
 					grabCursor
