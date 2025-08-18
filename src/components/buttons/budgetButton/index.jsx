@@ -1,4 +1,3 @@
-import React from "react";
 import styles from './budgetButton.module.css';
 
 export const BudgetButton = () => {

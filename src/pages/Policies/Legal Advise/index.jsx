@@ -1,4 +1,3 @@
-import React from "react";
 import { Header } from "../../../components/Header";
 import { Footer } from "../../../components/Footer";
 import './legalAdvise.css';
@@ -19,7 +18,7 @@ export const LegalAdvise = () => {
                             <li>Nombre empresa: NOROBRA</li>
                             <li>NIF: [Número fiscal]</li>
                             <li>Domicilio social: [Dirección completa]</li>
-                            <li>Email de contacto: [correo@empresa.com]</li>
+                            <li>Email de contacto: <a href="mailto:info-norobra@gmail.com?subject=Contactar con asistecia al cliente.">info-norobra@gmail.com</a></li>
                             <li>Dominio web: [www.tudominio.com]</li>
                         </ul>
                     </div>

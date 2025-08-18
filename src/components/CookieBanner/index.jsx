@@ -1,4 +1,4 @@
-import { React, useState, useEffect, use } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import './CookiePopUp.css';
 
@@ -13,6 +13,7 @@ export const CookieBanner = () => {
         if (hasConsent) {
             setShowBanner(false)
         }
+
     }, []);
 
     // Función para crear cookie y quitar banner de la pantalla

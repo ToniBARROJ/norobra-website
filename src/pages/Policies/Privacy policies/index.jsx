@@ -51,7 +51,7 @@ export const PrivacyPolicies = () => {
                             <strong>Nombre / Razón social:</strong> NOROBRA <br />
                             <strong>NIF/CIF:</strong> [Número] <br />
                             <strong>Domicilio social:</strong> [Dirección completa] <br />
-                            <strong>Correo de contacto:</strong> <a href="mailto:[email@example.com]">[email@example.com]</a> <br />
+                            <strong>Correo de contacto:</strong> <a href="mailto:info-norobra@gmail.com?subject=Contactar con asistecia al cliente.">info-norobra@gmail.com</a> <br />
                             <strong>Teléfono:</strong> [Teléfono]
                         </p>
                     </section>
@@ -117,7 +117,7 @@ export const PrivacyPolicies = () => {
                             <li><strong>Portabilidad:</strong> solicitar la portabilidad de sus datos a otro responsable cuando proceda.</li>
                         </ul>
                         <p>
-                            Para ejercer sus derechos, puede enviar una solicitud por escrito a <a href="mailto:[email@example.com]">[email@example.com]</a>, indicando el derecho que desea ejercitar y adjuntando copia de su documento identificativo.
+                            Para ejercer sus derechos, puede enviar una solicitud por escrito a <a href="mailto:info-norobra@gmail.com?subject=Contactar con asistecia al cliente.">info-norobra@gmail.com</a>, indicando el derecho que desea ejercitar y adjuntando copia de su documento identificativo.
                         </p>
                         <p>También tiene derecho a presentar una reclamación ante la Agencia Española de Protección de Datos: <a href="https://www.aepd.es/" target="_blank" rel="noopener">www.aepd.es</a>.</p>
                     </section>
@@ -150,7 +150,7 @@ export const PrivacyPolicies = () => {
                         </p>
                         <div className="contact-card" role="region">
                             <p><strong>Responsable:</strong> NOROBRA</p>
-                            <p><strong>Email:</strong> <a href="mailto:[email@example.com]">[email@example.com]</a></p>
+                            <p><strong>Email:</strong> <a href="mailto:info-norobra@gmail.com?subject=Contactar con asistecia al cliente.">info-norobra@gmail.com</a></p>
                             <p><strong>Dirección:</strong> [Dirección completa]</p>
                             <p><strong>Teléfono:</strong> [Teléfono]</p>
 
