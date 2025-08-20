@@ -48,6 +48,16 @@ body {
   margin-bottom: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(229, 194, 0);
+  transition: 0.2s ease-out;
+}
+
 @media (max-width: 768px) {
   .contacto {
     flex-direction: column;

@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import { lazy, Suspense } from "react";
 import './About.css'
 import { AnimatedSection } from "../../components/animations/animatedSection";
 import image from '../../assets/images/happy-worker.jpg';

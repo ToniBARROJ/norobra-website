@@ -16,7 +16,8 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <main>
+      
+      <main id='main'>
         <Routes>
           <Route index element={<Home />} />
           <Route path='/home' element={<Home />} />
@@ -30,6 +31,7 @@ function App() {
           <Route path='/cookiePreferences' element={<CookiePreferences />} />
         </Routes> 
       </main>
+      
       <CookieBanner />
     </Router>
   );

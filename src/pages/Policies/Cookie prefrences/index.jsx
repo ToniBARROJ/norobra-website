@@ -5,6 +5,25 @@ import './cookiePreferences.css'
 
 export const CookiePreferences = () => {
 
+    const handleAccept = () => {
+        const checkboxes = document.getElementsByTagName('input');
+        let count = 0;
+
+        for (let index = 0; index < checkboxes.length; index++) {
+            if (checkboxes[index].type === "checkbox" && checkboxes[index].checked === true) {
+                count++;
+            }
+        }
+
+        // Con este for loop podriamos añadir más complejidad y crear una cookie para cada checkbox dando condiciones al if statement
+
+        const now = new Date();
+        const oneDay = 86400000;
+        now.setTime(now.getTime() + oneDay * 30);
+        const expirationDate = now.toUTCString();
+        document.cookie = `cookiePreferences=${count} saved; expires=${expirationDate}; path=/; secure`;
+    }
+
     function rejectAll() {
         const checkboxes = document.querySelectorAll('.toggle');
         checkboxes.forEach(checkbox => {
@@ -40,7 +59,7 @@ export const CookiePreferences = () => {
                     </div>
                     <p>Utilizadas para mostrar anuncios relevantes y personalizados en función de sus intereses.</p>
                     <div className="buttons">
-                        <button type="submit" className="save">Guardar preferencias</button>
+                        <button type="submit" className="save" onClick={handleAccept}>Guardar preferencias</button>
                         <button type="button" className="reject" onClick={rejectAll}>Rechazar todas</button>
                     </div>
                 </form>

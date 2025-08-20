@@ -18,7 +18,7 @@ export const Contact = () => {
                         <ul className="datos">
                         <li><strong>Dirección:</strong> Calle Ficticia 123, Madrid, España</li>
                         <li><strong>Teléfono:</strong> +34 600 123 456</li>
-                        <li><strong>Email:</strong><a href="mailto:info-norobra@gmail.com?subject=Contactar con asistencia al cliente.">info-norobra@gmail.com</a></li>
+                        <li><strong>Email:</strong><a href="mailto:infonorobra@gmail.com?subject=Contactar%20con%20asistecia%20al%20cliente."> infonorobra@gmail.com</a></li>
                         <li><strong>Horario:</strong> Lunes a Viernes de 8:00 a 18:00</li>
                         </ul>
                     </div>

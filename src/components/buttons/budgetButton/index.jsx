@@ -1,9 +1,11 @@
-import styles from './budgetButton.module.css';
+import { PopUp } from '../../PopUp';
+import './budgetButton.css';
 
 export const BudgetButton = () => {
     return (
         <>
-            <button type="button" className={styles.budgetButton}>SOLICITA TU PRESUPUESTO</button>
+            <button type="button" className='budgetButton'>SOLICITA TU PRESUPUESTO</button>
+            <PopUp />
         </>
     )
 }
