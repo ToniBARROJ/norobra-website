@@ -10,7 +10,6 @@ const Header = lazy(() => import("../../components/Header"));
 export const About = () => {
     return (
         <>
-            <Suspense fallback={<span>Loading...</span>}>
                 <Header />
                 <div className="about">
                     <AnimatedSection animation="slide-left">
@@ -71,7 +70,6 @@ export const About = () => {
                     </section>
                 </div>
                 <Footer />
-            </Suspense>
         </>
     )
 }
