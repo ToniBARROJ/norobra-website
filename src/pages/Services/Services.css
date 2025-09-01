@@ -48,3 +48,14 @@ button {
     height: 400px;
     align-self: center;
 }
+
+@media (max-width: 1024px) {
+   #service {
+    flex-direction: column;
+  }
+
+  .textSection {
+    padding: 1rem 0;
+    gap: 25px;
+  }
+}

@@ -14,7 +14,7 @@ export const Services = () => {
             <Header />
             <div className="services">
                 <AnimatedSection animation="slide-left">
-                    <div className="service1">
+                    <div className="service1" id="service">
                         <img src={image1} alt="Reforma de interior moderno en un piso" id="reformaInterior"/>
                         <div className="textSection">
                             <h2>Reformas integrales</h2>
@@ -25,7 +25,7 @@ export const Services = () => {
                 </AnimatedSection>
                 
                 <AnimatedSection animation="slide-right">
-                    <div className="service2">
+                    <div className="service2" id="service">
                         <img src={image2} alt="Construcción de vivienda unifamiliar moderna" id="obraNueva"/>
                         <div className="textSection">
                             <h2>Construcción de obra nueva</h2>
@@ -36,7 +36,7 @@ export const Services = () => {
                 </AnimatedSection>
 
                 <AnimatedSection animation="slide-left">
-                    <div className="service3">
+                    <div className="service3" id="service">
                         <img src={image3} alt="Técnico revisando planos en una obra en construcción" id="direccionTecnica"/>
                         <div className="textSection">
                             <h2>Dirección técnica y gestión de obra</h2>
