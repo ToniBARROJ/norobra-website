@@ -26,7 +26,7 @@ img {
 
 .swiper {
     width: 100%;
-    padding: 40px 60px;
+    padding: 40px 0px;
 }
 
 .swiper-slide {
@@ -61,12 +61,18 @@ img {
 .title {
     position: absolute;
     inset: 0;
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: end;
     padding: 25px 25px 30px;
+    background: rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        transparent,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.8)
+    );
 }
 
 .title h2 {
@@ -88,8 +94,6 @@ img {
 .content {
     position: absolute;
     inset: 0;
-    width: 100%;
-    height: 100%;
     padding: 25px var(--gap) 65px;
     display: flex;
     flex-direction: column;
@@ -125,7 +129,6 @@ img {
 .swiper-slide-active .text-box {
     opacity: 1;
     transition: 0.5s;
-    transform-style: 1s;
 }
 
 .text-box p {
@@ -185,3 +188,100 @@ img {
     transition: 0.8s cubic-bezier(0, 0, 0.25, 1.2);
     transition-delay: calc(1.5s + var(--i) * 0.4s);
 }
+
+ @media (max-width: 1024px) {
+    .swiper {
+        padding: 40px 30px;
+    }
+
+    .swiper-slide {
+        width: 250px;
+        height: 420px;
+    }
+
+    .swiper-slide-active {
+        width: 550px;
+    }
+
+    .title h2 {
+        font-size: 1.3rem;
+    }
+
+    .text-box p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-container {
+    height: auto;
+    padding: 20px 0;
+}
+
+.swiper { 
+    padding: 20px 20px 56px; 
+}
+
+.swiper-slide {
+    width: 200px;
+    height: 360px;
+}
+
+.swiper-slide-active {
+    width: 400px;
+}
+
+.title h2 {
+    font-size: 1.1rem;
+}
+
+.text-box p {
+    font-size: 0.9rem;
+}
+
+.tags span {
+    font-size: 0.75rem;
+    padding: 4px 10px;
+}
+}
+
+@media (max-width: 480px) {
+    .slider-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .swiper {
+        padding: 0 0 40px;
+    }
+
+    .swiper-slide {
+        width: 280px !important;
+        height: 250px;
+    }
+
+    .swiper-slide-active {
+        width: 280px !important;
+    }
+
+    .title h2 {
+        visibility: hidden;
+    }
+
+    .text-box p {
+        font-size: 0.85rem;
+        line-height: 1.3;
+    }
+
+    .tags-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+
+    .tags span {
+        font-size: 0.7rem;
+        padding: 2px 8px;
+    }
+}
+

@@ -15,7 +15,7 @@ export const CookiePreferences = () => {
             }
         }
 
-        // Con este for loop podriamos añadir más complejidad y crear una cookie para cada checkbox dando condiciones al if statement
+        // Con este for loop podriamos añadir más complejidad y crear una cookie para cada checkbox dando condiciones al if statement. Esto solo cuenta el número de checkboxes que hemos apretado.
 
         const now = new Date();
         const oneDay = 86400000;
