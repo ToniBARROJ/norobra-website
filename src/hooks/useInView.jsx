@@ -7,16 +7,15 @@ export const useInView = (options = {}) => {
     useEffect(() => {
         const observer = new IntersectionObserver(
             ([entry]) => setIsvisible(entry.isIntersecting),
-            { threshold: 0.1, ...options}
+            { threshold: 0.1, ...options },
         );
 
         if (ref.current) {
-            observer.observe(ref.current)
+            observer.observe(ref.current);
         }
 
         return () => observer.disconnect();
     }, [options]);
 
-    return [ref, isvisible]
-}
-
+    return [ref, isvisible];
+};

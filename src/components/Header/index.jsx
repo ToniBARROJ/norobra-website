@@ -1,7 +1,7 @@
-import React from "react"
-import "./header.css"
-import logo from '../../assets/logos/logo-norobra.png'
-import { Navbar } from "../Navbar"
+import React from "react";
+import "./header.css";
+import logo from "../../assets/logos/logo-norobra.png";
+import { Navbar } from "../Navbar";
 
 const Header = () => {
     return (
@@ -14,7 +14,7 @@ const Header = () => {
                 </div>
             </header>
         </>
-    )
-}
+    );
+};
 
-export { Header, Header as default }
+export { Header, Header as default };

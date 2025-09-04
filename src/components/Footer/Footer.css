@@ -9,7 +9,6 @@
     height: 85%;
     padding: 5% 5% 0 5%;
     gap: 15px;
-    
 }
 
 .logoDescription {
@@ -41,7 +40,7 @@
     ul {
         list-style: none;
         padding: 0;
-    }  
+    }
 
     li {
         margin-bottom: 30px;
@@ -69,14 +68,12 @@
     ul {
         list-style: none;
         padding: 0;
-    }  
+    }
 
     li {
         margin-bottom: 30px;
     }
 }
-
-
 
 .contactUs {
     width: 20%;
@@ -99,7 +96,7 @@
     ul {
         list-style: none;
         padding: 0;
-    }  
+    }
 
     li {
         margin-bottom: 30px;
@@ -123,7 +120,6 @@
 }
 
 @media (max-width: 1024px) {
-    
     .footerMenu {
         display: none;
     }
@@ -134,12 +130,12 @@
         justify-content: space-evenly;
         margin: 0 5% 60px 5%;
         height: auto;
-        
+
         div {
             width: 100%;
         }
 
-        .logoDescription p{
+        .logoDescription p {
             width: 100%;
         }
     }
@@ -147,11 +143,9 @@
     .footerRights {
         width: 100%;
     }
-
 }
 
 @media (max-width: 425px) {
-    
     .footer {
         width: 100%;
     }
@@ -161,7 +155,6 @@
     }
 
     .logoDescription {
-
         p {
             width: 100%;
         }

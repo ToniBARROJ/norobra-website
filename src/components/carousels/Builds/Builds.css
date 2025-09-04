@@ -70,8 +70,8 @@ img {
         180deg,
         transparent,
         transparent,
-        rgba(0,0,0,0.3),
-        rgba(0,0,0,0.8)
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.8)
     );
 }
 
@@ -103,8 +103,8 @@ img {
         180deg,
         transparent,
         transparent,
-        rgba(0,0,0,0.3),
-        rgba(0,0,0,0.8)
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.8)
     );
     color: var(--primary-clr);
     opacity: 0;
@@ -189,7 +189,7 @@ img {
     transition-delay: calc(1.5s + var(--i) * 0.4s);
 }
 
- @media (max-width: 1024px) {
+@media (max-width: 1024px) {
     .swiper {
         padding: 40px 30px;
     }
@@ -214,35 +214,35 @@ img {
 
 @media (max-width: 768px) {
     .slider-container {
-    height: auto;
-    padding: 20px 0;
-}
+        height: auto;
+        padding: 20px 0;
+    }
 
-.swiper { 
-    padding: 20px 20px 56px; 
-}
+    .swiper {
+        padding: 20px 20px 56px;
+    }
 
-.swiper-slide {
-    width: 200px;
-    height: 360px;
-}
+    .swiper-slide {
+        width: 200px;
+        height: 360px;
+    }
 
-.swiper-slide-active {
-    width: 400px;
-}
+    .swiper-slide-active {
+        width: 400px;
+    }
 
-.title h2 {
-    font-size: 1.1rem;
-}
+    .title h2 {
+        font-size: 1.1rem;
+    }
 
-.text-box p {
-    font-size: 0.9rem;
-}
+    .text-box p {
+        font-size: 0.9rem;
+    }
 
-.tags span {
-    font-size: 0.75rem;
-    padding: 4px 10px;
-}
+    .tags span {
+        font-size: 0.75rem;
+        padding: 4px 10px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -284,4 +284,3 @@ img {
         padding: 2px 8px;
     }
 }
-

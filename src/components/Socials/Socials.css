@@ -1,130 +1,130 @@
 .social-container {
-  padding: 20px 20px;
-  background: linear-gradient(135deg, #1a237e, #0d47a1);
-  text-align: center;
-  color: white;
-  border-top: 3px solid #ffcc00;
-  border-bottom: 3px solid #ffcc00;
+    padding: 20px 20px;
+    background: linear-gradient(135deg, #1a237e, #0d47a1);
+    text-align: center;
+    color: white;
+    border-top: 3px solid #ffcc00;
+    border-bottom: 3px solid #ffcc00;
 }
 
 .social-title {
-  font-size: 2.0rem;
-  margin-bottom: 30px;
-  letter-spacing: 1px;
-  position: relative;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    position: relative;
 }
 
 .social-title::after {
-  content: '';
-  display: block;
-  width: 60px;
-  height: 4px;
-  background: #ffcc00;
-  margin: 10px auto 0;
-  border-radius: 2px;
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #ffcc00;
+    margin: 10px auto 0;
+    border-radius: 2px;
 }
 
 .social-links {
-  list-style: none;
-  padding: 0;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 25px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
 .social-links li {
-  transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .social-links li:hover {
-  transform: translateY(-5px);
+    transform: translateY(-5px);
 }
 
 .social-links li a {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  text-decoration: none;
-  font-size: 1.1rem;
-  font-weight: 600;
-  padding: 14px 28px;
-  border-radius: 40px;
-  transition: all 0.4s ease;
-  position: relative;
-  z-index: 1;
-  background-color: #fff;
-  color: #0d47a1;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 14px 28px;
+    border-radius: 40px;
+    transition: all 0.4s ease;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    color: #0d47a1;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .social-links li a::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0%;
-  height: 100%;
-  border-radius: 40px;
-  z-index: -1;
-  transition: all 0.4s ease;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-radius: 40px;
+    z-index: -1;
+    transition: all 0.4s ease;
 }
 
 .social-links li a .icon {
-  font-size: 1.3rem;
+    font-size: 1.3rem;
 }
 
 /* Efectos hover para animar los botones */
 
 .facebook:hover {
-  color: white;
+    color: white;
 }
 
 .facebook:hover::before {
-  width: 100%;
-  background: #3b5998;
+    width: 100%;
+    background: #3b5998;
 }
 
 .instagram:hover {
-  color: white;
+    color: white;
 }
 
 .instagram:hover::before {
-  width: 100%;
-  background: radial-gradient(circle at 30% 30%, #feda75, #d62976, #962fbf);
+    width: 100%;
+    background: radial-gradient(circle at 30% 30%, #feda75, #d62976, #962fbf);
 }
 
 .linkedin:hover {
-  color: white;
+    color: white;
 }
 
 .linkedin:hover::before {
-  width: 100%;
-  background: #0077b5;
+    width: 100%;
+    background: #0077b5;
 }
 
 .youtube:hover {
-  color: white;
+    color: white;
 }
 
 .youtube:hover::before {
-  width: 100%;
-  background: #ff0000;
+    width: 100%;
+    background: #ff0000;
 }
 
 @media (max-width: 768px) {
-  .social-title {
-    font-size: 2rem;
-  }
+    .social-title {
+        font-size: 2rem;
+    }
 
-  .social-links {
-    flex-direction: column;
-    gap: 20px;
-  }
+    .social-links {
+        flex-direction: column;
+        gap: 20px;
+    }
 
-  .social-links li a {
-    font-size: 1rem;
-    padding: 12px 20px;
-  }
+    .social-links li a {
+        font-size: 1rem;
+        padding: 12px 20px;
+    }
 }

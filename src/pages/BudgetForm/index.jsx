@@ -1,8 +1,7 @@
-import './budgetForm.css';
-import { Header } from '../../components/Header/index';
+import "./budgetForm.css";
+import { Header } from "../../components/Header/index";
 
 export const BudgetForm = () => {
-
     const handleSubmit = (e) => {
         e.preventDefault();
         const formData = new FormData(e.target);
@@ -14,11 +13,11 @@ export const BudgetForm = () => {
 
     return (
         <>
+            <Header />
             <div className="form-page">
-                <Header />
                 <div className="form-container">
                     <h1>Solicitud de Presupuesto</h1>
-                    <form onSubmit={handleSubmit} className='form'>
+                    <form onSubmit={handleSubmit} className="form">
                         <label htmlFor="name">Nombre completo</label>
                         <input type="text" id="name" name="name" required />
 
@@ -32,18 +31,27 @@ export const BudgetForm = () => {
                         <select id="service" name="service" required>
                             <option value="">Seleccione una opción</option>
                             <option value="obra nueva">Obra nueva</option>
-                            <option value="reforma integral">Reforma integral</option>
+                            <option value="reforma integral">
+                                Reforma integral
+                            </option>
                             <option value="diseño">Diseño</option>
                             <option value="otros">Otros</option>
                         </select>
 
                         <label htmlFor="details">Detalles del proyecto</label>
-                        <textarea id="details" name="details" placeholder="Describe tu proyecto..." required></textarea>
+                        <textarea
+                            id="details"
+                            name="details"
+                            placeholder="Describe tu proyecto..."
+                            required
+                        ></textarea>
 
-                        <button type="submit" className='form-submit'>Enviar solicitud</button>
+                        <button type="submit" className="form-submit">
+                            Enviar solicitud
+                        </button>
                     </form>
                 </div>
             </div>
         </>
-    )
-}
+    );
+};

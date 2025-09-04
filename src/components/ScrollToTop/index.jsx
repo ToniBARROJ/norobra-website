@@ -6,9 +6,9 @@ import { useLocation } from "react-router-dom";
 // Este código se ejecuta cuando abrimos una de las rutas que hemos determinado.
 
 export const ScrollToTop = () => {
-    const {pathname} = useLocation();
+    const { pathname } = useLocation();
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [pathname]);
-}
+};

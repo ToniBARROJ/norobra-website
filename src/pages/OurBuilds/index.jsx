@@ -12,5 +12,5 @@ export const OurBuilds = () => {
             <TestimonialCarousel />
             <Footer />
         </>
-    )
-}
+    );
+};

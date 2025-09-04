@@ -31,27 +31,23 @@
 
         p {
             font-size: var(--p-fontSize);
-
         }
 
         strong {
             font-size: var(--p-fontSize);
         }
-
-        
     }
     a {
         text-decoration: none;
         font-weight: 500;
         color: black;
-
     }
-    
+
     a:hover {
         color: rgb(229, 194, 0);
         transition: 0.2s ease-in-out;
     }
-    
+
     .actions {
         display: flex;
         flex-direction: column;

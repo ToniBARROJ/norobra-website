@@ -1,7 +1,7 @@
 import React from "react";
 import { BudgetButton } from "../../components/buttons/budgetButton";
 import { AnimatedSection } from "../../components/animations/animatedSection";
-import "./Home.css"
+import "./Home.css";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 
@@ -37,5 +37,5 @@ export const Home = () => {
             </AnimatedSection>
             <Footer />
         </>
-    )
-}
+    );
+};
