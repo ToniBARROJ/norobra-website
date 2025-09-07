@@ -1,6 +1,5 @@
 {
     "compilerOptions": {
-        // ...other options
         "jsx": "react-jsx"
     },
     "include": ["src/**/*.js", "src/**/*.jsx"]
